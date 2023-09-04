@@ -1,1 +1,1 @@
-Software Predictor project
+Software Salary Predictor project
