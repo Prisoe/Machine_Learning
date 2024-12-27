@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Ticket</title>
+</head>
+<body>
+    <h1>Submit Ticket</h1>
+    <form method="POST">
+        <label for="member_id">Member ID:</label>
+        <input type="text" id="member_id" name="member_id" required><br>
+
+        <label for="ticket_notes">Ticket Notes:</label>
+        <textarea id="ticket_notes" name="ticket_notes" rows="4" required></textarea><br>
+
+        <button type="submit">Submit Ticket</button>
+    </form>
+    <!-- {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %} -->
+</body>
+</html>
