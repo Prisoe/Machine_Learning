@@ -1,0 +1,18 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing System</title>
+</head>
+<body>
+    <h1>Ticketing System</h1>
+    <form action="/classify" method="post">
+        <label for="ticket_text">Enter Ticket Description:</label>
+        <input type="text" id="ticket_text" name="ticket_text" required>
+        <button type="submit">Classify</button>
+    </form>
+</body>
+</html>
